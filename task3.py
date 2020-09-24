@@ -5,7 +5,7 @@
 print('--- 1 ---')
 
 i = 0
-while 0 <= i <= 10:
+while i <= 10:
     print(i)
     i += 1
 
@@ -14,7 +14,7 @@ while 0 <= i <= 10:
 print('--- 2 ---')
 
 i = 20
-while 1 <= i <= 20:
+while i >= 1:
     print(i, end=' ')
     i -= 1
 
